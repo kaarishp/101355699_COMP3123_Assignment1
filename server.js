@@ -9,7 +9,7 @@ const SERVER_PORT = 3001
 
 app.use(express.json())
 app.use(express.urlencoded())
-const DB_CONNECTION_STRING = "mongodb+srv://dbking:hrlX3Ms1xg0ZOEz3@cluster0.qggx7lx.mongodb.net/comp3123_assigment1?retryWrites=true&w=majority"
+// const DB_CONNECTION_STRING
 
 mongoose.connect(DB_CONNECTION_STRING, {
     useNewUrlParser: true,
